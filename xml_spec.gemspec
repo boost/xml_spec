@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["fedegl@gmail.com"]
   gem.description   = %q{Test XML with RSpec and Cucumber}
   gem.summary       = %q{Test XML with RSpec and Cucumber}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/boost/xml_spec"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
