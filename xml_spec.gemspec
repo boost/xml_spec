@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = XmlSpec::VERSION
   
   gem.add_dependency "nokogiri",  ">= 1.3.2"  
-  gem.add_dependency "rspec",     "~> 2.0"
+  gem.add_dependency "rspec",     "~> 3.1.0"
 
   gem.add_development_dependency "rake", "~> 0.9"
   gem.add_development_dependency "cucumber", "~> 1.1", ">= 1.1.1"
